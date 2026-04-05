@@ -10,6 +10,7 @@ import { banCommand } from "./ban-user";
 import { endGameCommand } from "./end-game";
 import { myScoreCommand } from "./my-score";
 import { newGameCommand } from "./new-game";
+import { newGridGameCommand } from "./new-grid-game";
 import { unbanCommand } from "./unban-user";
 import { dailyWordleCommand } from "./daily";
 import { seekAuthCommand } from "./seekauth";
@@ -28,6 +29,7 @@ composer.use(
   startCommand,
   helpCommand,
   newGameCommand,
+  newGridGameCommand,
   endGameCommand,
   myScoreCommand,
   statsCommand,
