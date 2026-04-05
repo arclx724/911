@@ -5,6 +5,7 @@ import { bot } from "./config/bot";
 import { commands } from "./commands";
 import { errorHandler } from "./handlers/error-handler";
 import { onMessageHander } from "./handlers/on-message";
+import { onGridMessageHandler } from "./handlers/on-grid-message";
 import { CommandsHelper } from "./util/commands-helper";
 import { resumeBroadcast } from "./util/resume-broadcast";
 import { callbackQueryHandler } from "./handlers/callback-query";
