@@ -38,6 +38,7 @@ bot.use(handleBannedUsers);
 bot.use(commands);
 bot.use(callbackQueryHandler);
 bot.use(onMessageHander);
+bot.use(onGridMessageHandler);
 bot.use(onBotAddedInChat);
 
 bot.catch(errorHandler);
